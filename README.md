@@ -26,16 +26,20 @@ The application consists of:
 - Database: MySQL  
 - Communication: REST API
 
+## Frontend
+### Technologies Used
 🧩 Technologies Used for the frontend:
 - React.js
 
+## Backend
+### Technologies Used
 🧩 Technologies Used for the backend:
 - Spring Boot
 - Spring Security
 - MySQL
 - Java
 
-
+### Dependencies
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -46,6 +50,7 @@ The application consists of:
     <scope>runtime</scope>
 </dependency>
 
+## Getting Started
 Start Frontend
 cd frontend
 npm install
@@ -54,6 +59,7 @@ npm start
 Access the Application:
 - Frontend: http://localhost:3000  
 
+### Frontend Setup:
 1.Git:
 Make sure you have Git installed. If not, download and install it from git-scm.com.
 
@@ -66,13 +72,11 @@ Ensure MySQL is using port 3306.
 Install NVM from github.com/nvm-sh/nvm.
 Use NVM to install Node.js version 14.11.0: nvm install 14.11.0.
 
-
+# Video Demonstration
 Watch the demonstration video here:
-
 https://github.com/user-attachments/assets/1bbb89be-7ccd-4c7f-a8e8-a89aab145e44
 
-
-Contributors:
+## Contributors
 - Khouribech Imane
 - Ennahir Hind 
 
