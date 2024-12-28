@@ -1,45 +1,52 @@
 # SportEvent: Sports Event Management Platform
 
-![SportEvent Logo](https://via.placeholder.com/600x200.png?text=SportEvent+Logo)
-
-*SportEvent* is a comprehensive web application designed to simplify the management of sports events, from participant registration to real-time results tracking. With a robust and modern architecture, it aims to provide an optimal experience for organizers and participants.
+*SportEvent* est une application web complète conçue pour simplifier la gestion des événements sportifs, allant de l'inscription des participants au suivi des résultats en temps réel. Avec une architecture robuste et moderne, elle vise à offrir une expérience optimale aux organisateurs et aux participants.
 
 ---
 
-## 📚 *Table of Contents*
-- [🛠 Software Architecture](#-software-architecture)
-- [🐳 Docker Image](#-docker-image)
-- [💻 Frontend](#-frontend)
-- [🔧 Backend](#-backend)
-- [🚀 Quick Start](#-quick-start)
-- [🎥 Video Demonstration](#-video-demonstration)
-- [🤝 Contributing](#-contributing)
+## 📚 *Table des matières*
+- [Software architecture](#Software-architecture)
+- [Docker Image](#Docker-Image)
+- [Frontend](#frontend)
+- [Backend](#backend)
+- [Getting Started](#getting-started)
+- [Video Demonstration](#Video-Demonstration)
+- [Contributing](#contributing)
 
 ---
 
-## 🛠 *Software Architecture*
+## 🛠 *Architecture Logicielle*
 
-```text
-The application consists of:
-- Backend: Spring Boot  
-- Frontend: React.js  
-- Database: MySQL  
-- Communication: REST API
+L'application est composée de :
+- **Backend** : Spring Boot  
+- **Frontend** : React.js  
+- **Base de données** : MySQL  
+- **Communication** : REST API
 
-## Frontend
-### Technologies Used
-🧩 Technologies Used for the frontend:
+---
+
+### 🧩 Technologies utilisées
 - React.js
 
-## Backend
-### Technologies Used
-🧩 Technologies Used for the backend:
-- Spring Boot
-- Spring Security
-- MySQL
-- Java
 
-### Dependencies
+## 🛠 *Prérequis*
+
+- Git : Assurez-vous que Git est installé. Sinon, téléchargez-le depuis git-scm.com.
+
+- XAMPP : Installez XAMPP depuis apachefriends.org. Démarrez les serveurs Apache et MySQL. Assurez-vous que MySQL utilise le port 3306.
+
+- Node Version Manager (NVM) : Installez NVM depuis github.com/nvm-sh/nvm. Utilisez NVM pour installer Node.js version 14.11.0 :
+
+## 🛠 *Backend*
+
+🧩 Technologies utilisées:
+-Spring Boot
+-Spring Security
+-MySQL
+-Java
+
+Dépendances:
+```sh
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -49,36 +56,39 @@ The application consists of:
     <artifactId>mysql-connector-java</artifactId>
     <scope>runtime</scope>
 </dependency>
+```
 
-## Getting Started
-Start Frontend
+### ⚙️ *Installation du Frontend*
+```bash
 cd frontend
 npm install
 npm start
+```
 
-Access the Application:
-- Frontend: http://localhost:3000  
+## *Accès à l'application*
+Frontend : http://localhost:3000
 
-### Frontend Setup:
-1.Git:
-Make sure you have Git installed. If not, download and install it from git-scm.com.
+## *Vidéo démonstrative*
 
-2.XAMPP:
-Install XAMPP from apachefriends.org.
-Start the Apache and MySQL servers in XAMPP.
-Ensure MySQL is using port 3306.
+https://github.com/user-attachments/assets/cbccdd0e-db66-4802-9a20-a2524dad3406
 
-3.Node Version Manager (NVM):
-Install NVM from github.com/nvm-sh/nvm.
-Use NVM to install Node.js version 14.11.0: nvm install 14.11.0.
-
-# Video Demonstration
-Watch the demonstration video here:
-https://github.com/user-attachments/assets/1bbb89be-7ccd-4c7f-a8e8-a89aab145e44
-
-## Contributors
+## *Contributeurs*
 - Khouribech Imane
-- Ennahir Hind 
+- Ennahir Hind
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
