@@ -150,7 +150,7 @@ Frontend : http://localhost:3000
 https://github.com/user-attachments/assets/cbccdd0e-db66-4802-9a20-a2524dad3406
 
 ## *Contributeurs*
-- Khouribech Imane
+- @Khouribech Imane
 - Ennahir Hind
 
 
