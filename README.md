@@ -1,6 +1,6 @@
-# Sports Event Management Platform
+# Sports Event Platform
 
-*SportEvent* est une application web complète conçue pour simplifier la gestion des événements sportifs, allant de l'inscription des participants au suivi des résultats en temps réel. Avec une architecture robuste et moderne, elle vise à offrir une expérience optimale aux organisateurs et aux participants.
+*SportEvent* est une application web complète conçue pour simplifier la gestion des événements sportifs, allant de l'inscription des participants au suivi des résultats. Avec une architecture robuste et moderne, elle vise à offrir une expérience optimale aux organisateurs et aux participants.
 
 ---
 
@@ -150,8 +150,14 @@ Frontend : http://localhost:3000
 https://github.com/user-attachments/assets/cbccdd0e-db66-4802-9a20-a2524dad3406
 
 ## *Contributeurs*
-- @Khouribech Imane
-- Ennahir Hind
+- [Khouribech imane](https://github.com/HindEnnahir)
+- [HindEnnahir](https://github.com/khouribechimane)
+
+
+
+
+
+
 
 
 
